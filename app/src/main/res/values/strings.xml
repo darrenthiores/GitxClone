@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GitxClone</string>
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_setting">Setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_search">Search</string>
+    <string name="label_favorite">Favorite</string>
+    <string name="label_setting">Setting</string>
+    <string name="github_logo">Github logo</string>
+    <string name="avatar">Avatar</string>
+    <string name="followers_num">%d Followers</string>
+    <string name="following_num">%d Following</string>
+    <string name="tab_title_1">Followers</string>
+    <string name="tab_title_2">Following</string>
+    <string name="preferences">Preferences</string>
+    <string name="language">Language</string>
+    <string name="language_summary">Change App Language</string>
+    <string name="reminder">Reminder</string>
+    <string name="reminder_on">On</string>
+    <string name="reminder_off">Off</string>
+    <string name="reminder_key">reminder_key</string>
+    <string name="theme">Theme</string>
+    <string name="theme_on">Dark</string>
+    <string name="theme_off">Light</string>
+    <string name="theme_key">theme_key</string>
+    <string name="info">Info</string>
+    <string name="about">About</string>
+    <string name="about_key">about_key</string>
+    <string name="alarm_msg">Github Reminder!! Open your github now :)</string>
+    <string name="notif_title">Reminder</string>
+    <string name="about_title">About</string>
+    <string name="share">Share</string>
+    <string name="share_message">Heyy!! check this profile : %s</string>
+    <string name="bt_repo">%s Repository</string>
+    <string name="repo_name">Repository : %s</string>
+    <string name="repo_description">Description : %s</string>
+    <plurals name="repo_watch">
+        <item quantity="one">Watch : %d</item>
+        <item quantity="zero">Watch : %d</item>
+        <item quantity="other">Watches : %d</item>
+    </plurals>
+    <plurals name="repo_star">
+        <item quantity="one">Star : %d</item>
+        <item quantity="zero">Star : %d</item>
+        <item quantity="other">Stars : %d</item>
+    </plurals>
+    <string name="repo_language">Language : %s</string>
+    <plurals name="repo">
+        <item quantity="one">Repository : %d</item>
+        <item quantity="zero">Repository : %d</item>
+        <item quantity="other">Repositories : %d</item>
+    </plurals>
+    <string name="master">Master</string>
+    <string name="forked">Forked</string>
+    <string name="repo_title">%s Repository</string>
+    <string name="repo_detail_title">Repository</string>
+    <string name="appwidget_text">Favorite User</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is your favorite user</string>
+    <string name="no_data">NO DATA</string>
+</resources>

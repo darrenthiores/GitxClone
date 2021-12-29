@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.icebeal.gitxclone.ui.fragment.SearchFragment"
+        android:label="@string/label_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.icebeal.gitxclone.ui.fragment.FavoriteFragment"
+        android:label="@string/label_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_navigation_favorite_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.icebeal.gitxclone.ui.fragment.SettingFragment"
+        android:label="@string/label_setting"
+        tools:layout="@layout/fragment_setting" />
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.icebeal.gitxclone.ui.activity.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail">
+        <argument
+            android:name="username"
+            android:defaultValue="non"
+            app:argType="string" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://www.icebeal.com/user/{username}" />
+    </activity>
+</navigation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitxClone</string>
+    <string name="title_search">Cari</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="title_setting">Pengaturan</string>
+    <string name="label_search">Cari</string>
+    <string name="label_favorite">Favorit</string>
+    <string name="label_setting">Pengaturan</string>
+    <string name="github_logo">Logo Github</string>
+    <string name="avatar">Avatar</string>
+    <string name="followers_num">%d Pengikut</string>
+    <string name="following_num">%d Mengikuti</string>
+    <string name="tab_title_1">Pengikut</string>
+    <string name="tab_title_2">Mengikuti</string>
+    <string name="preferences">Preferensi</string>
+    <string name="language">Bahasa</string>
+    <string name="language_summary">Ganti Bahasa Aplikasi</string>
+    <string name="reminder">Pengingat</string>
+    <string name="reminder_on">Nyala</string>
+    <string name="reminder_off">Mati</string>
+    <string name="reminder_key">reminder_key</string>
+    <string name="theme">Tema</string>
+    <string name="theme_on">Gelap</string>
+    <string name="theme_off">Terang</string>
+    <string name="theme_key">theme_key</string>
+    <string name="info">Informasi</string>
+    <string name="about">Tentang</string>
+    <string name="about_key">about_key</string>
+    <string name="alarm_msg">Pengingat Github!! Buka Githubmu Sekarang :)</string>
+    <string name="notif_title">Pengingat</string>
+    <string name="about_title">Tentang</string>
+    <string name="share">Bagikan</string>
+    <string name="share_message">Heyy!! Periksa Profil ini : %s</string>
+    <string name="bt_repo">Gudang %s</string>
+    <string name="repo_name">Gudang : %s</string>
+    <string name="repo_description">Deskripsi : %s</string>
+    <plurals name="repo_watch">
+        <item quantity="one">Lihat : %d</item>
+        <item quantity="zero">Lihat : %d</item>
+        <item quantity="other">Lihat : %d</item>
+    </plurals>
+    <plurals name="repo_star">
+        <item quantity="one">Bintang : %d</item>
+        <item quantity="zero">Bintang : %d</item>
+        <item quantity="other">Bintang : %d</item>
+    </plurals>
+    <string name="repo_language">Bahasa : %s</string>
+    <plurals name="repo">
+        <item quantity="one">Gudang : %d</item>
+        <item quantity="zero">Gudang : %d</item>
+        <item quantity="other">Gudang : %d</item>
+    </plurals>
+    <string name="master">Pemilik</string>
+    <string name="forked">Cabang</string>
+    <string name="repo_title">Gudang %s</string>
+    <string name="repo_detail_title">Gudang</string>
+    <string name="appwidget_text">Pengguna Favorit</string>
+    <string name="add_widget">Tambahkan Widget</string>
+    <string name="app_widget_description">Ini Adalah Pengguna Favoritmu</string>
+    <string name="no_data">TIDAK ADA DATA</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <PreferenceCategory app:title="@string/preferences">
+
+        <Preference
+            android:title="@string/language"
+            android:summary="@string/language_summary"
+            android:icon="@drawable/ic_baseline_language_24">
+
+            <intent android:action="android.settings.LOCALE_SETTINGS"/>
+
+        </Preference>
+
+        <SwitchPreferenceCompat
+            android:title="@string/reminder"
+            android:summaryOn="@string/reminder_on"
+            android:summaryOff="@string/reminder_off"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:key="@string/reminder_key"/>
+
+        <SwitchPreferenceCompat
+            android:title="@string/theme"
+            android:summaryOn="@string/theme_on"
+            android:summaryOff="@string/theme_off"
+            android:icon="@drawable/ic_baseline_wb_sunny_24"
+            android:key="@string/theme_key"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/info">
+
+        <Preference
+            android:title="@string/about"
+            android:key="@string/about_key"
+            android:icon="@drawable/ic_baseline_info_24"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

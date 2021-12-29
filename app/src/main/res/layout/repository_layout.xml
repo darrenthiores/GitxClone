@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_repoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:text="@string/repo_name"/>
+
+        <TextView
+            android:id="@+id/tv_repoDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_repoName"
+            android:text="@string/repo_description"/>
+
+        <ImageView
+            android:id="@+id/fork_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_repoDescription"
+            android:src="@drawable/ic_baseline_account_tree_24"/>
+
+        <TextView
+            android:id="@+id/tv_fork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/tv_repoDescription"
+            android:layout_toEndOf="@id/fork_icon"
+            tools:text="fork"/>
+
+        <ImageView
+            android:id="@+id/eye_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/fork_icon"
+            android:src="@drawable/ic_baseline_remove_red_eye_24"/>
+
+        <TextView
+            android:id="@+id/tv_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@id/fork_icon"
+            android:layout_toEndOf="@id/eye_icon"
+            tools:text="Watch : %d"/>
+
+        <ImageView
+            android:id="@+id/star_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/fork_icon"
+            android:layout_toEndOf="@id/tv_watch"
+            android:src="@drawable/ic_baseline_star_24"/>
+
+        <TextView
+            android:id="@+id/tv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@id/fork_icon"
+            android:layout_toEndOf="@id/star_icon"
+            tools:text="Star : %d"/>
+
+        <ImageView
+            android:id="@+id/language_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/eye_icon"
+            android:src="@drawable/ic_baseline_language_24"/>
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@id/eye_icon"
+            android:layout_toEndOf="@id/language_icon"
+            tools:text="@string/repo_language"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
